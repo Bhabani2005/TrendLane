@@ -6,15 +6,16 @@ import Fontisto from "react-native-vector-icons/Fontisto"
 import { useFonts } from 'expo-font'
 import Ionicons from "react-native-vector-icons/Ionicons"
 import { useNavigation } from '@react-navigation/native'
-const Loginscreen = () => {
+
+const SignupScreen = () => {
     const [secureEntry, setSecureEntry] = useState(true);
     const navigation= useNavigation();
     const handleGoback= () => {
         navigation.goBack();
     };
-    const handleSignup= () => {
-        navigation.navigate('Signup')
-    }
+    const handleLogin= () => {
+        navigation.navigate("Login")
+    };
     const [loaded] = useFonts({
         Poppinslight: require('../assets/fonts/Poppins-Light.ttf'),
     });
@@ -27,15 +28,20 @@ const Loginscreen = () => {
                 <FontAwesome6 name={"arrow-left"} color="#4834DF" size={25} />
             </TouchableOpacity>
             <View style={styles.textcontainer}>
-                <Text style={styles.headingtext}>Hey,</Text>
-                <Text style={styles.headingtext}>Welcome</Text>
-                <Text style={styles.headingtext}>Back</Text>
+                <Text style={styles.headingtext}>Let's get</Text>
+                <Text style={styles.headingtext}>Started</Text>
             </View>
             <View style={styles.formcontainer}>
                 <View style={styles.inputcontainer}>
                     <Fontisto name={"email"} size={30} color={'#4834DF'} />
                     <TextInput style={styles.textInput} placeholder='Enter your email' placeholderTextColor={'#4834DF'}
                         keyboardType='email-address'
+                    />
+                </View>
+                <View style={styles.inputcontainer}>
+                    <Ionicons name={"phone-portrait-outline"} size={30} color={'#4834DF'} />
+                    <TextInput style={styles.textInput} placeholder='Enter your phone no' placeholderTextColor={'#4834DF'}
+                    keyboardType='number-pad'
                     />
                 </View>
                 <View style={styles.inputcontainer}>
@@ -50,11 +56,8 @@ const Loginscreen = () => {
                     </TouchableOpacity>
 
                 </View>
-                <TouchableOpacity>
-                    <Text style={styles.forgotpsswrd}>Forgot Password?</Text>
-                </TouchableOpacity>
                 <TouchableOpacity style={styles.loginButtonWrapper}>
-                    <Text style={styles.loginButtonText}>Login</Text>
+                    <Text style={styles.loginButtonText}>Sign up</Text>
                 </TouchableOpacity>
                 <Text style={styles.continue}>or continue with</Text>
                 <TouchableOpacity style={styles.googleButtonContainer}>
@@ -62,9 +65,10 @@ const Loginscreen = () => {
                     <Text style={styles.googleText}>Google</Text>
                 </TouchableOpacity>
                 <View style={styles.footerContainer}>
-                    <Text style={styles.accountText}>Don't have an account?</Text>
-                    <TouchableOpacity onPress={handleSignup}>
-                    <Text style={styles.signupText}>Sign up</Text>
+                    <Text style={styles.accountText}>Already have an account?</Text>
+                    <TouchableOpacity onPress={handleLogin}>
+                    <Text style={styles.signupText}>Login
+                    </Text>
                     </TouchableOpacity>
                     
                 </View>
@@ -73,7 +77,7 @@ const Loginscreen = () => {
     );
 };
 
-export default Loginscreen
+export default SignupScreen;
 
 const styles = StyleSheet.create({
     container: {

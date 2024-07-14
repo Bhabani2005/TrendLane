@@ -12,9 +12,13 @@ const Home = () => {
     return null;
   }
   const navigation = useNavigation();
-  const handleLogin= ()=> {
+  const handleLogin = () => {
     navigation.navigate("Login")
   };
+  const handleSignup = () => {
+    navigation.navigate("Signup")
+  };
+
   return (
     <View style={styles.container}>
 
@@ -26,11 +30,11 @@ const Home = () => {
 
       </Text>
       <View style={styles.buttoncontainer}>
-        <TouchableOpacity style= {[styles.loginButtonWrapper,{backgroundColor:'#4834DF'}]}
-        onPress={handleLogin}>
+        <TouchableOpacity style={[styles.loginButtonWrapper, { backgroundColor: '#4834DF' }]}
+          onPress={handleLogin}>
           <Text style={styles.loginButtonText}>Login</Text>
         </TouchableOpacity>
-        <TouchableOpacity style={styles.loginButtonWrapper}>
+        <TouchableOpacity style={styles.loginButtonWrapper}onPress={handleSignup}>
           <Text style={styles.signupButtonText}>Sign-up</Text>
         </TouchableOpacity>
       </View>
@@ -60,16 +64,19 @@ const styles = StyleSheet.create({
     marginTop: 50,
     fontWeight: 'bold',
     fontFamily: 'Poppins',
+    color: '#4834DF',
   },
   subtitle: {
     fontSize: 15,
     textAlign: 'center',
     marginTop: 25,
+    color: '#252f40'
     //marginVertical: 20,
   },
   appname: {
     fontSize: 15,
     fontWeight: '500',
+    color: '#4834DF'
     //marginVertical: 20,
   },
   buttoncontainer: {
@@ -91,12 +98,12 @@ const styles = StyleSheet.create({
   loginButtonText: {
     color: '#ffffff',
     fontSize: 17,
-    fontFamily:'Poppins',
+    fontFamily: 'Poppins',
   },
   signupButtonText: {
-   
+
     fontSize: 16,
-    fontFamily:'Poppins',
+    fontFamily: 'Poppins',
   },
 });
 
