@@ -6,6 +6,7 @@ import Home from './screens/Home';
 import Loginscreen from './screens/Loginscreen';
 import { useFonts } from 'expo-font';
 import SignupScreen from './screens/SignupScreen';
+import reusableButton from './screens/reusableButton';
 const Stack= createNativeStackNavigator();
 const App= () => {
   return (
@@ -18,6 +19,8 @@ const App= () => {
          <Stack.Screen name={'Login'} component={Loginscreen}
         />
         <Stack.Screen name={'Signup'} component={SignupScreen}/>
+
+        <Stack.Screen name={'Buttons'} component={reusableButton}/>
       </Stack.Navigator>
     </NavigationContainer>
   )
