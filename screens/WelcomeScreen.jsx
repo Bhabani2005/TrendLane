@@ -4,7 +4,7 @@ import { useFonts } from 'expo-font';
 import { TouchableOpacity } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
-const Home = () => {
+const WelcomeScreen = () => {
   const [loaded] = useFonts({
     Poppins: require('../assets/fonts/Poppins-Regular.ttf'),
   });
@@ -42,7 +42,7 @@ const Home = () => {
   )
 }
 
-export default Home
+export default WelcomeScreen
 
 const styles = StyleSheet.create({
   container: {
