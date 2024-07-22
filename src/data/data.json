@@ -1,0 +1,203 @@
+{
+"products": [
+    {
+      "id": 1,
+      "name": "Men's Oversized Tshirts",
+      "category_id": 1,
+      "price": 19.99,
+      "description": "BULLMER Oversized Beige Front Printed Oversized Tshirt for Men",
+      "stock": 100,
+      "image": "https://www.jiomart.com/images/product/original/rvzp5lhwh3/bullmer-beige-front-printed-colourblock-baggy-oversized-tshirt-for-men-product-images-rvzp5lhwh3-1-202308010658.jpg?im=Resize=(500,630)"
+    },
+    {
+      "id": 2,
+      "name": "Men's Jeans",
+      "category_id": 1,
+      "price": 49.99,
+      "description": "Stylish denim jeans",
+      "stock": 60,
+      "image": "https://cdn.fynd.com/v2/falling-surf-7c8bb8/fyprod/wrkr/products/pictures/item/free/original/8905550064811/G0ZyjI-oV-8905550064811_1.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Men's Jacket",
+      "category_id": 1,
+      "price": 89.99,
+      "description": "Solids Polyester Casual Jacket",
+      "stock": 30,
+      "image": "https://img0.junaroad.com/uiproducts/19415034/zoom_0-1677562704.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Women's Dress",
+      "category_id": 2,
+      "price": 49.99,
+      "description": "Elegant evening dress",
+      "stock": 50,
+      "image": "https://dressrent.in/cdn/shop/products/HTB1awSfnNSYBuNjSspjq6x73VXaZ_1200x1200.jpg?v=1557515178"
+    },
+    {
+      "id": 5,
+      "name": "Women's Oversized Tshirts",
+      "category_id": 2,
+      "price": 29.99,
+      "description": "Women's Red Emotional Baggage Graphic Printed Oversized T-shirt",
+      "stock": 70,
+      "image": "https://images.bewakoof.com/t1080/women-s-red-emotional-baggage-graphic-printed-oversized-t-shirt-584926-1702362633-1.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Women's Skirt",
+      "category_id": 2,
+      "price": 39.99,
+      "description": "Trendy and comfortable skirt",
+      "stock": 40,
+      "image": "https://apisap.fabindia.com/medias/20165582-01.jpg?context=bWFzdGVyfGltYWdlc3wyMTk0NDd8aW1hZ2UvanBlZ3xhR1V5TDJnNU9DODBORFkwTlRNeU56RTBNamswTWk4eU1ERTJOVFU0TWw4d01TNXFjR2N8NzM5N2NmY2RjOWQ1ODJiMjY5NmE2ODk5MTBjNGI2ZDhiYTgyYjA5ZDAyZjc2MjgxOWFiZTU3ZDg5ODMwNWIwZg"
+    },
+    {
+      "id": 7,
+      "name": "Kids' T-Shirt",
+      "category_id": 3,
+      "price": 14.99,
+      "description": "Baby Shark Kids T-Shirt - Boys & Girls T-Shirts Online in India– Be Awara",
+      "stock": 90,
+      "image": "https://www.beawara.com/cdn/shop/products/1_f8f78d4b-f8d1-48a6-8cfb-a401f8a3a910_1080x.jpg?v=1658689797"
+    },
+    {
+      "id": 8,
+      "name": "Kids' Jeans",
+      "category_id": 3,
+      "price": 24.99,
+      "description": "Boys Jeans Denim Pants For Spring And Autumn Kids Clothes",
+      "stock": 80,
+      "image": "https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/a2ca203d177a85196b45d538a48e83d5.jpg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp"
+    },
+    {
+      "id": 9,
+      "name": "Kids' Jacket",
+      "category_id": 3,
+      "price": 49.99,
+      "description": "Buy Jackets For Boys Online - Kids Jackets - Monte Carlo",
+      "stock": 35,
+      "image": "https://www.montecarlo.in/cdn/shop/products/523063162-1-32_5.jpg?v=1704450703&width=1100"
+    },
+    {
+      "id": 10,
+      "name": "Men's Sneakers",
+      "category_id": 1,
+      "price": 59.99,
+      "description": "Puma Dexfly V1 Men's Sneakers",
+      "stock": 40,
+      "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/394005/01/sv05/fnd/IND/fmt/png/Puma-Dexfly-V1-Men's-Sneakers"
+    },
+    {
+      "id": 11,
+      "name": "Women's Heels",
+      "category_id": 2,
+      "price": 69.99,
+      "description": "Blush Bride High Heeled Embroidered Shoes for Weddings | Tiesta Shoes 40",
+      "stock": 25,
+      "image": "https://www.tiesta.in/cdn/shop/products/WhatsAppImage2019-02-27at6.41.30PM1.jpg?v=1643012628"
+    },
+    {
+      "id": 12,
+      "name": "Kids' Sneakers",
+      "category_id": 3,
+      "price": 29.99,
+      "description": "Campus Kid's OGK-04V Sneakers",
+      "stock": 75,
+      "image": "https://www.campusshoes.com/cdn/shop/files/OGK_04V_WHT_SKY_V.ORG_2.jpg?v=1701081523"
+    },
+    {
+      "id": 13,
+      "name": "Men's Hat",
+      "category_id": 1,
+      "price": 19.99,
+      "description": "Fedora Felt Dress Hat - Custom Made - Stratton Hats - Made in the USA",
+      "stock": 60,
+      "image": "https://strattonhats.com/wp-content/uploads/IMG_1416.webp"
+    },
+    {
+      "id": 14,
+      "name": "Women's Scarf",
+      "category_id": 2,
+      "price": 14.99,
+      "description": "Scarves for Women - Buy Women Scarves & Stoles Online ",
+      "stock": 50,
+      "image": "https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/23871424/2023/7/13/7b7e6932-8379-4bb7-88da-926d64f34f641689243790802-Silk-Land-Women-Scarves-1671689243790491-1.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Kids' Cap",
+      "category_id": 3,
+      "price": 12.99,
+      "description": "Miniso Mini Family Sports Baseball Cap For Kids ",
+      "stock": 70,
+      "image": "https://www.msrmarket.in/cdn/shop/products/1_1_0e3d4ed6-b204-4a37-bc0d-33d8d795b917.jpg?v=1668246105"
+    },
+    {
+        "id": 16,
+        "name": "Men's Polo Shirt",
+        "category_id": 1,
+        "price": 29.99,
+        "description": "grey solid cotton polo t-shirt",
+        "stock": 80,
+        "image": "https://img0.junaroad.com/uiproducts/19615123/zoom_1-1680153191.jpg"
+      },
+      {
+        "id": 17,
+        "name": "Women's Handbag",
+        "category_id": 2,
+        "price": 79.99,
+        "description": "Rhyhorn Trendy Bags Women Large Bags Women's Messenger Shoulder Ladies",
+        "stock": 40,
+        "image": "https://m.media-amazon.com/images/I/71lcp5RVXVL._AC_UF1000,1000_QL80_.jpg"
+      },
+      {
+        "id": 18,
+        "name": "Kids' Dress",
+        "category_id": 3,
+        "price": 34.99,
+        "description": "Blue Party Wear Kids Dress",
+        "stock": 60,
+        "image": "https://www.latestkurtidesigns.com/wp-content/uploads/2023/07/blue-dress.jpg"
+      },
+      {
+        "id": 19,
+        "name": "Men's Belt",
+        "category_id": 1,
+        "price": 24.99,
+        "description": "Fashionable Jaguar Alloy Buckle Designer Belt For Men's-JonasParamount",
+        "stock": 50,
+        "image": "https://jonasparamount.com/cdn/shop/products/download_44.jpg?v=1677165718"
+      },
+      {
+        "id": 20,
+        "name": "Women's Sunglasses",
+        "category_id": 2,
+        "price": 29.99,
+        "description": "Love Moschino MOL022/S Full-Rim Square Sunglasses For Women (Blue, OS)",
+        "stock": 30,
+        "image": "https://assets.ajio.com/medias/sys_master/root/20210706/W48Y/60e478f7f997ddb3121da784/-473Wx593H-460915703-gold-MODEL.jpg"
+      },
+      {
+        "id": 21,
+        "name": "Men's Watch",
+        "category_id": 1,
+        "price": 99.99,
+        "description": "Fossil Analog Black dial men Watch FS5164 Stainless Steel, Multicolor Strap",
+        "stock": 20,
+        "image": "https://m.media-amazon.com/images/I/81m+ZYJIwjL._AC_UY1000_.jpg"
+      },
+      {
+        "id": 22,
+        "name": "Women's Necklace",
+        "category_id": 2,
+        "price": 49.99,
+        "description": "ose Gold-Plated Magnet Openable Heart Necklace",
+        "stock": 35,
+        "image": "https://assets.ajio.com/medias/sys_master/root/20230628/yPtd/649bef85eebac147fc2486a3/-473Wx593H-465870614-rosegold-MODEL.jpg"
+      }
+      
+  ]
+}

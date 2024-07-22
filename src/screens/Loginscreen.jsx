@@ -7,12 +7,14 @@ import { useFonts } from 'expo-font'
 import Ionicons from "react-native-vector-icons/Ionicons"
 import { useNavigation } from '@react-navigation/native'
 const Loginscreen = () => {
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
     const [secureEntry, setSecureEntry] = useState(true);
-    const navigation= useNavigation();
-    const handleGoback= () => {
+    const navigation = useNavigation();
+    const handleGoback = () => {
         navigation.goBack();
     };
-    const handleSignup= () => {
+    const handleSignup = () => {
         navigation.navigate('Signup')
     }
     const [loaded] = useFonts({
@@ -34,16 +36,24 @@ const Loginscreen = () => {
             <View style={styles.formcontainer}>
                 <View style={styles.inputcontainer}>
                     <Fontisto name={"email"} size={30} color={'#4834DF'} />
-                    <TextInput style={styles.textInput} placeholder='Enter your email' placeholderTextColor={'#4834DF'}
+                    <TextInput style={styles.textInput}
+                        placeholder='Enter your email'
+                        placeholderTextColor={'#4834DF'}
+                        value={email}
+                        onChangeText={setEmail}
                         keyboardType='email-address'
                     />
                 </View>
                 <View style={styles.inputcontainer}>
                     <Ionicons name={"lock-closed-outline"} size={30} color={'#4834DF'} />
-                    <TextInput style={styles.textInput} placeholder='Enter your password' placeholderTextColor={'#4834DF'}
+                    <TextInput style={styles.textInput}
+                        placeholder='Enter your password'
+                        placeholderTextColor={'#4834DF'}
+                        value={password}
+                        onChangeText={setPassword}
                         secureTextEntry={secureEntry}
                     />
-                    <TouchableOpacity onPress={() =>{
+                    <TouchableOpacity onPress={() => {
                         setSecureEntry((prev) => !prev);
                     }}>
                         <Ionicons name={"eye-outline"} size={20} color={'#4834DF'} />
@@ -58,15 +68,15 @@ const Loginscreen = () => {
                 </TouchableOpacity>
                 <Text style={styles.continue}>or continue with</Text>
                 <TouchableOpacity style={styles.googleButtonContainer}>
-                    <Image source={require("../assets/images/google-color-icon.png")} style={styles.googleImage}/>
+                    <Image source={require("../assets/images/google-color-icon.png")} style={styles.googleImage} />
                     <Text style={styles.googleText}>Google</Text>
                 </TouchableOpacity>
                 <View style={styles.footerContainer}>
                     <Text style={styles.accountText}>Don't have an account?</Text>
                     <TouchableOpacity onPress={handleSignup}>
-                    <Text style={styles.signupText}>Sign up</Text>
+                        <Text style={styles.signupText}>Sign up</Text>
                     </TouchableOpacity>
-                    
+
                 </View>
             </View>
         </View>
@@ -122,7 +132,7 @@ const styles = StyleSheet.create({
     forgotpsswrd: {
         textAlign: 'right',
         color: '#4834DF',
-        fontFamily:'Poppins',
+        fontFamily: 'Poppins',
     },
     loginButtonWrapper: {
         backgroundColor: '#4834DF',
@@ -137,7 +147,7 @@ const styles = StyleSheet.create({
         padding: 10,
     },
     continue: {
-        textAlign:'center',
+        textAlign: 'center',
         marginVertical: 20,
         fontSize: 13,
         fontFamily: 'Poppins',
@@ -171,7 +181,7 @@ const styles = StyleSheet.create({
     },
     accountText: {
         color: "#1287A5",
-        fontFamily:'Poppins',
+        fontFamily: 'Poppins',
 
     },
     signupText: {
